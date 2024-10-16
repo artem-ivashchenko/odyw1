@@ -1,0 +1,30 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  font: 18px / 1.4 monospace;
+
+  margin: 2rem auto;
+  max-width: 64em;
+}
+
+input, button {
+  font: inherit;
+  text-align: left;
+  
+  min-width: 100%;
+  padding: .5em;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: .5em;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  gap: .5em;
+}
